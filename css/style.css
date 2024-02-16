@@ -265,7 +265,7 @@ footer {
     background: url('../images/bi2.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bi2.jpg') 50% 0 repeat-y fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), ('../images/bi2.jpg') 50% 0 repeat-y fixed;
     background-position: center center;
     color: #ffffff;
     display: -webkit-box;
@@ -366,7 +366,7 @@ footer {
    experience section              
 -----------------------------------------*/
 #experience{
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+  @import ("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
   *,
   *::before,
@@ -690,7 +690,7 @@ div.scroll-container img {
 }
 
 #minor .flip-card-front{ 
-  background-image: url(../images/cs.jpg);
+  background-image: url('../images/cs.jpg');
   background-size: cover; /* Adjust the size of the background image */
   color: white; /* Color of the text */
   text-shadow: 
