@@ -679,7 +679,7 @@ div.scroll-container img {
 
 /* Style the front side (fallback if image is missing) */
 #major .flip-card-front{ 
-  background-image: "/images/bi1.jpg";
+  background-image: "../images/bi1.jpg";
   background-size: cover; /* Adjust the size of the background image */
   color: white; /* Color of the text */
   text-shadow: 
@@ -690,7 +690,7 @@ div.scroll-container img {
 }
 
 #minor .flip-card-front{ 
-  background-image: url(/images/cs.jpg);
+  background-image: url(../images/cs.jpg);
   background-size: cover; /* Adjust the size of the background image */
   color: white; /* Color of the text */
   text-shadow: 
