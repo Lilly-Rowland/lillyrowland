@@ -681,7 +681,7 @@ div.scroll-container img {
 #major .flip-card-front{ 
   background-image: url("../images/bi1.jpg");
   background-size: cover; /* Adjust the size of the background image */
-  background-color: #9096c6;
+  background-color: blue;
   color: white; /* Color of the text */
   text-shadow: 
     -1px -1px 0 #9096c6,  
